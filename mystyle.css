@@ -1,3 +1,12 @@
 body{
-    background-color: rgb(9, 77, 82);
+    background-color: rgb(178, 209, 199);
+    overflow: hidden;
+}
+div ocean{
+    background-color: rgb(47, 161, 156);
+    width: 30%;
+    height: 98%;
+    font: black 8px;
+    margin: auto;
+    position:absolute;
 }
