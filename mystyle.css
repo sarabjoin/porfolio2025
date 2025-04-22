@@ -1,12 +1,28 @@
 body{
-    background-color: rgb(178, 209, 199);
+    background-color: rgb(13, 14, 14);
     overflow: hidden;
 }
-div ocean{
-    background-color: rgb(47, 161, 156);
-    width: 30%;
+.ocean{
+    background-image: url("pictures/ocean_tall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 104, 99);
+    width: 35%;
     height: 98%;
     font: black 8px;
     margin: auto;
     position:absolute;
+    object-fit: contain;
+    overflow: hidden;
+    border-color: black;
+    z-index: -1;
+}
+
+.projectsbtn{
+    position: relative;
+    right: -60%;
+    top: -100%;
+    margin-left: 5%;
+    margin-top:25%;
+    width: fit-content;
 }
